@@ -17,7 +17,7 @@ body {
 
 .music-container {
   width: 300px;
-  background-color: #212936;
+  background-color: rgba(18, 24, 38, 0.6509803922);
   border-radius: 10px;
   padding: 15px;
   margin: 15px;
