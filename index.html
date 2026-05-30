@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Player App</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    </head>
+    <body>
+        
+        <div class="music-container">
+            <div class="music-img">
+                <img src="image/cover-1.jpg" alt="music-img-1">
+            </div>
+
+            <div class="music-info">
+                <p class="song-title">Lost in the City Lights</p>
+                <p class="artist-name">Cosmo Sheldrake</p>
+            </div>
+
+            <div class="time-info">
+                <div class="current-time">0:00</div>
+                <div class="duration"></div>
+            </div>
+
+            <div class="music-time">
+                <div class="music-progress"></div>
+            </div>
+
+            <div class="music-btn">
+                <button class="btn-1" id="previousButton"><img src="image/Stop_and_play_fill-1.svg" alt=""></button>
+                <button class="btn-2" id="playButton"><img src="image/Play_fill.svg" alt=""></button>
+                <button class="btn-3" id="nextButton"><img src="image/Stop_and_play_fill.svg" alt=""></button>
+            </div>
+
+            <audio class="audio"></audio>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
