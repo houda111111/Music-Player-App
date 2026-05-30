@@ -65,6 +65,7 @@ body {
   background-color: #E5E7EB;
   border-radius: 10px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .music-container .music-time .music-progress {
   background-color: #C93B76;

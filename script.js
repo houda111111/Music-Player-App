@@ -101,6 +101,10 @@ audio.addEventListener("timeupdate", () => {
     current.textContent = formatTime(audio.currentTime);
 })
 
+audio.addEventListener("ended", () => {
+    next.click();
+})
+
 loadSong(currentSongIndex)
 
 
